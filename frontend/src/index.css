@@ -1,0 +1,26 @@
+:root {
+  --primary: red;
+}
+
+body {
+  font-family: sans-serif;
+  /* background-color: burlywood; */
+}
+
+.active {
+  background-color: var(--primary);
+  border-radius: 50px;
+}
+
+.logoText {
+  color: aqua;
+}
+
+.bgImage {
+  background-image: url('../public/bg.jpg');
+}
+.spacer{
+  margin-top: -200px;
+  background-color: white;
+  border-radius: 20px;
+}
